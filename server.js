@@ -9,7 +9,7 @@ const { body, validationResult } = require('express-validator'); // Import expre
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:5173', // Update with your frontend's origin if different
+  origin: 'https://heartfelt-cuchufli-12c257.netlify.app/', // Update with your frontend's origin if different
   methods: ['GET', 'POST'],
 }));
 app.use(express.json());
